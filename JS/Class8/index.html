@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div>
+      <label for="Amount">Amount</label>
+      <input type="number" onchange="HandleAccount(event)" />
+    </div>
+    
+    <br>
+
+    <button onclick="Deposite()">Deposite</button>
+    <button onclick="withdraw()">Withdraw</button>
+
+    <h4>Bank Balance: <span id="balance"></span></h4>
+
+    <script src="script.js"></script>
+  </body>
+</html>
